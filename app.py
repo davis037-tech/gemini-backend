@@ -145,7 +145,7 @@ def chat():
     
     files = []
     
-    if file_date:
+    if file_data:
       filename, code = file_date
       
       file_path = save_code(
